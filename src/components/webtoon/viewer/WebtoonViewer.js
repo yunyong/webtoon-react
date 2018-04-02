@@ -10,7 +10,8 @@ class WebtoonViewer extends Component {
         this.state = {
             data : {
                 webtoon : {},
-                webtoonImages : []
+                webtoonImages : [],
+                isValidUser : false
             },
             showTopNav : true
         }
@@ -88,7 +89,13 @@ class WebtoonViewer extends Component {
                         { (this.state.showTopNav) &&
                             <TopNav data={this.state.data}/>
                         }
-                        <ImageViewer list={this.state.data.webtoonImages} onClick={this.clickEvent} />
+                        { (this.state.data.isValidUser) ? (
+                            <ImageViewer list={this.state.data.webtoonImages} onClick={this.clickEvent}/>
+                            ) : (
+                            <div className="txt_login">
+                                Please Login
+                            </div>
+                        )}
                     </div>
                 }
             </div>
