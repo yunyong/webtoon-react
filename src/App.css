@@ -1,0 +1,63 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0}
+body{-webkit-text-size-adjust:none} input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
+body {min-width:320px;background-color:#fff}
+
+a {color:#333;text-decoration:none} a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+
+.ir_pm {display:block;overflow:hidden;font-size:0px;line-height:0;text-indent:-9999px} .ir_wa {display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%} .screen_out {display:block;overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999px} .screen_hide {font-size:0;line-height:0;visibility:hidden}
+.f_l {float:left}
+.f_r {float:right}
+.clear_g {display:block;overflow:visible;width:auto;clear:both;*zoom:1}
+.clear_g:after {display:block;visibility:hidden;height:0;font-size:0;clear:both;content:''}
+.cl_b {width:0;height:0;font-size:0;line-height:0;clear:both}
+.show {display:block}
+.hide {display:none}
+.tbl {border-collapse:collapse;border-spacing: 0}
+
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
+
+#Head h1 {padding:10px 0;text-align:center}
+#Head .list_gnb {display:grid;grid-template-columns:1fr 1fr 1fr;background-color:#a00}
+#Head .list_gnb .link_gnb {display:block;padding:10px;text-align:center;color:#fff}
+#Head .list_gnb .on {background-color:#800}
+
+#WebtoonHome {position:relative}
+#WebtoonHome .ico_loading {position:fixed;top:40%;left:50%;width:200px;margin-left:-100px;background-color:#000;text-align:center;color:#fff}
+
+#WebtoonGnb {display:grid;grid-template-columns:1fr 1fr 1fr;background-color:#ccc}
+#WebtoonGnb .link_gnb {display:block;padding:10px;text-align:center;color:#000}
+#WebtoonGnb .on {background-color:#aaa}
+
+#WebtoonWeekTab {display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;background-color:#eee}
+#WebtoonWeekTab .link_gnb {display:block;padding:10px;text-align:center;color:#000}
+#WebtoonWeekTab .on {color:#a00;text-decoration:underline}
+
+.item_webtoon {display:flex;padding:10px;border-bottom:1px solid #ccc}
+.item_webtoon .thumb_webtoon {width:100px}
+.item_webtoon .thumb_webtoon .img_webtoon {display:block;width:80px;height:77px}
+.item_webtoon .cont_webtoon {flex:1}
+
+#WebtoonInfo .tit_webtoon {padding:4px 10px;border-bottom:1px solid #ccc;background-color:#eee;font-size:18px}
+#WebtoonInfo .wrap_info {border-bottom:1px solid #ccc;padding:10px}
+#WebtoonInfo .wrap_info .item_webtoon {padding:0 0 10px 0;border-bottom:0 none}
+#WebtoonInfo .wrap_info .link_first_episode {display:block;padding:6px 0;border:1px solid #ccc;text-align:center}
+
+#EpisodeList .item_webtoon .thumb_webtoon {width:130px}
+#EpisodeList .item_webtoon .img_webtoon {width:120px;height:72px}
+
+.viewer_images img {display:block;width:100%}
+#TopNav {position:fixed;top:0;left:0;width:100%;border-bottom:1px solid #aaa;background-color:#ccc}
+#TopNav .link_home {position:absolute;top:10px;left:10px;padding:4px 10px;border:1px solid #000;background-color:#fff}
+#TopNav .link_episode {float:right;margin:10px;padding:4px 10px;border:1px solid #000;background-color:#fff}
+#TopNav .link_next {margin-left:0}
